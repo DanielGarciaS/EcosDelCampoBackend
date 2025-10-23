@@ -1,0 +1,216 @@
+{
+  "success": true,
+  "message": "Usuario registrado exitosamente",
+  "data": {
+    "id": "68fa6eb510d6eea8447adc1e",
+    "nombre": "Pedro Agricultor",
+    "email": "pedro@ejemplo.com",
+    "rol": "agricultor",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZmE2ZWI1MTBkNmVlYTg0NDdhZGMxZSIsImlhdCI6MTc2MTI0MjgwNSwiZXhwIjoxNzYxMjUwMDA1fQ.wnhsYo2ntAAz-2FgkspuDKVaN68qyeVJcD1uHLrFunE"
+  }
+}
+
+
+{
+  "success": true,
+  "message": "Login exitoso",
+  "data": {
+    "id": "68fa6eb510d6eea8447adc1e",
+    "nombre": "Pedro Agricultor",
+    "email": "pedro@ejemplo.com",
+    "rol": "agricultor",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZmE2ZWI1MTBkNmVlYTg0NDdhZGMxZSIsImlhdCI6MTc2MTI0Mjg1NSwiZXhwIjoxNzYxMjUwMDU1fQ.hTGaYXMvQKNCeuZY9k2bVhlOlryqVjUooggLz0-iq5c"
+  }
+}
+
+{
+  "success": true,
+  "message": "Producto creado exitosamente",
+  "data": {
+    "nombre": "Tomates frescos",
+    "descripcion": "Tomates orgánicos recién cosechados",
+    "precio": 25,
+    "cantidad": 100,
+    "unidad": "kg",
+    "categoria": "verduras",
+    "imagen": "https://via.placeholder.com/400x300?text=Sin+Imagen",
+    "disponible": true,
+    "agricultor": "68fa6eb510d6eea8447adc1e",
+    "ubicacion": "Guadalajara, Jalisco",
+    "_id": "68fa6f5110d6eea8447adc22",
+    "createdAt": "2025-10-23T18:09:21.014Z",
+    "updatedAt": "2025-10-23T18:09:21.015Z",
+    "__v": 0
+  }
+}
+
+{
+  "success": true,
+  "count": 1,
+  "data": [
+    {
+      "_id": "68fa6f5110d6eea8447adc22",
+      "nombre": "Tomates frescos",
+      "descripcion": "Tomates orgánicos recién cosechados",
+      "precio": 25,
+      "cantidad": 100,
+      "unidad": "kg",
+      "categoria": "verduras",
+      "imagen": "https://via.placeholder.com/400x300?text=Sin+Imagen",
+      "disponible": true,
+      "agricultor": {
+        "_id": "68fa6eb510d6eea8447adc1e",
+        "nombre": "Pedro Agricultor",
+        "email": "pedro@ejemplo.com",
+        "telefono": "3331234567"
+      },
+      "ubicacion": "Guadalajara, Jalisco",
+      "createdAt": "2025-10-23T18:09:21.014Z",
+      "updatedAt": "2025-10-23T18:09:21.015Z",
+      "__v": 0
+    }
+  ]
+}
+
+
+{
+  "success": true,
+  "message": "Usuario registrado exitosamente",
+  "data": {
+    "id": "68fa7259d7d8ebbba291ca27",
+    "nombre": "María Compradora",
+    "email": "maria@ejemplo.com",
+    "rol": "comprador",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZmE3MjU5ZDdkOGViYmJhMjkxY2EyNyIsImlhdCI6MTc2MTI0MzczOCwiZXhwIjoxNzYxMjUwOTM4fQ.8GAoGgxKYd9QXxtQ_e-23wdtMf-OKObtFI2Y1d2wSnc"
+  }
+}
+
+{
+  "success": true,
+  "message": "Login exitoso",
+  "data": {
+    "id": "68fa7259d7d8ebbba291ca27",
+    "nombre": "María Compradora",
+    "email": "maria@ejemplo.com",
+    "rol": "comprador",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZmE3MjU5ZDdkOGViYmJhMjkxY2EyNyIsImlhdCI6MTc2MTI0Mzc3MiwiZXhwIjoxNzYxMjUwOTcyfQ.KeLBTRsh02DMfVSIcfb5UYuQKD-vgtRVgFp54mmd-Zs"
+  }
+}
+
+{
+  "success": true,
+  "message": "Producto agregado al carrito",
+  "data": {
+    "_id": "68fa7305d7d8ebbba291ca2d",
+    "usuario": "68fa7259d7d8ebbba291ca27",
+    "items": [
+      {
+        "producto": {
+          "_id": "68fa6f5110d6eea8447adc22",
+          "nombre": "Tomates frescos",
+          "precio": 25,
+          "imagen": "https://via.placeholder.com/400x300?text=Sin+Imagen",
+          "disponible": true
+        },
+        "cantidad": 3,
+        "precio": 25,
+        "_id": "68fa7305d7d8ebbba291ca2f"
+      }
+    ],
+    "total": 75,
+    "updatedAt": "2025-10-23T18:25:09.305Z",
+    "__v": 1
+  }
+}
+
+{
+  "success": true,
+  "message": "Pedido creado exitosamente",
+  "data": {
+    "direccionEntrega": {
+      "calle": "Av. Principal 456",
+      "ciudad": "Guadalajara",
+      "estado": "Jalisco",
+      "codigoPostal": "44100",
+      "telefono": "3339876543"
+    },
+    "_id": "68fa7365d7d8ebbba291ca3d",
+    "comprador": {
+      "_id": "68fa7259d7d8ebbba291ca27",
+      "nombre": "María Compradora",
+      "email": "maria@ejemplo.com",
+      "telefono": "3339876543"
+    },
+    "items": [
+      {
+        "producto": {
+          "_id": "68fa6f5110d6eea8447adc22",
+          "nombre": "Tomates frescos",
+          "imagen": "https://via.placeholder.com/400x300?text=Sin+Imagen"
+        },
+        "nombre": "Tomates frescos",
+        "cantidad": 3,
+        "precio": 25,
+        "subtotal": 75,
+        "agricultor": {
+          "_id": "68fa6eb510d6eea8447adc1e",
+          "nombre": "Pedro Agricultor",
+          "email": "pedro@ejemplo.com",
+          "telefono": "3331234567"
+        },
+        "_id": "68fa7365d7d8ebbba291ca3e"
+      }
+    ],
+    "total": 75,
+    "estado": "pendiente",
+    "metodoPago": "efectivo",
+    "notas": "Llamar antes de entregar",
+    "fechaEntregaEstimada": "2025-10-26T18:26:45.124Z",
+    "fechaPedido": "2025-10-23T18:26:45.125Z",
+    "__v": 0
+  }
+}
+
+{
+  "success": true,
+  "count": 1,
+  "data": [
+    {
+      "direccionEntrega": {
+        "calle": "Av. Principal 456",
+        "ciudad": "Guadalajara",
+        "estado": "Jalisco",
+        "codigoPostal": "44100",
+        "telefono": "3339876543"
+      },
+      "_id": "68fa7365d7d8ebbba291ca3d",
+      "comprador": "68fa7259d7d8ebbba291ca27",
+      "items": [
+        {
+          "producto": {
+            "_id": "68fa6f5110d6eea8447adc22",
+            "nombre": "Tomates frescos",
+            "imagen": "https://via.placeholder.com/400x300?text=Sin+Imagen"
+          },
+          "nombre": "Tomates frescos",
+          "cantidad": 3,
+          "precio": 25,
+          "subtotal": 75,
+          "agricultor": {
+            "_id": "68fa6eb510d6eea8447adc1e",
+            "nombre": "Pedro Agricultor",
+            "telefono": "3331234567"
+          },
+          "_id": "68fa7365d7d8ebbba291ca3e"
+        }
+      ],
+      "total": 75,
+      "estado": "pendiente",
+      "metodoPago": "efectivo",
+      "notas": "Llamar antes de entregar",
+      "fechaEntregaEstimada": "2025-10-26T18:26:45.124Z",
+      "fechaPedido": "2025-10-23T18:26:45.125Z",
+      "__v": 0
+    }
+  ]
+}
