@@ -17,3 +17,6 @@ npm-debug.log*
 
 #Documentacion de EndPoints
 .tokens
+.package
+.package-lock
+
